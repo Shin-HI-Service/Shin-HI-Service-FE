@@ -20,6 +20,9 @@ export const MainRestService = () => {
       "/combined-models"
     )) as AxiosResponse<Model.getModelsResDto>;
 
+    console.log(inferenceModels);
+    console.log(trainingModels);
+
     setInferenceModels(inferenceModels);
     setTrainingModels(trainingModels);
   };

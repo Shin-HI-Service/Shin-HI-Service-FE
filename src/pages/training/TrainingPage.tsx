@@ -67,7 +67,7 @@ const TrainingPage = () => {
           <div style={{ height: "40px" }}></div>
           <img
             src="/img/character.png"
-            style={{ width: "100px", marginBottom: "10px" }}
+            style={{ width: "140px", marginBottom: "10px" }}
           />
           <Explanation>모든 학습 과정은 암호화를 통해서 이뤄지며,</Explanation>
           <Explanation>본 기기를 제외한 어떤 기기와 서버에서도</Explanation>

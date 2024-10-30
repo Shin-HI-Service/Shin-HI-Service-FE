@@ -4,7 +4,7 @@ const URL = import.meta.env.VITE_DEC_SERVER_WS;
 
 export const DecSocketService = () => {
   const clientId = useDataStore((state) => state.clientId);
-  const encClientId = useDataStore((state) => state.encClientId);
+  //const encClientId = useDataStore((state) => state.encClientId);
 
   const setSocket = useDecSocketStore((state) => state.setSocket);
   const socket = useDecSocketStore((state) => state.socket);
@@ -46,6 +46,7 @@ export const DecSocketService = () => {
   };
 
   const sendMessage = (data: Socket.DecServerMessageDto) => {
+    console.log(data);
     if (socket && socket.readyState === WebSocket.OPEN) {
       socket.send(JSON.stringify(data));
     } else console.log("There is something wrong with dec server socket");

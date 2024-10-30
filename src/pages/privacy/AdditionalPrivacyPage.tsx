@@ -107,7 +107,7 @@ const AdditionalPrivacyPage = () => {
               <ProgressBar
                 percent={currentStep * 25}
                 width={320}
-                filledBackground="linear-gradient(to right, #f0a00088, #f0a000)"
+                filledBackground="linear-gradient(to right, #f0a00088, #CF9C51)"
               >
                 {Array.from({ length: 5 }).map((_, index) => (
                   <Step key={index}>
@@ -118,7 +118,7 @@ const AdditionalPrivacyPage = () => {
                           height: 22,
                           borderRadius: "50%",
                           backgroundColor: accomplished
-                            ? "#f0a000"
+                            ? "#CF9C51"
                             : "lightgray",
                         }}
                         onClick={() => setCurrentStep(index)}

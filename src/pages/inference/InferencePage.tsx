@@ -53,7 +53,7 @@ const InferencePage = () => {
           <div style={{ height: "60px" }}></div>
           <img
             src="/img/character.png"
-            style={{ width: "120px", marginBottom: "10px" }}
+            style={{ width: "200px", marginBottom: "10px" }}
           />
           <Explanation>
             모든 서비스 과정은 암호화를 통해서 이뤄지며,
