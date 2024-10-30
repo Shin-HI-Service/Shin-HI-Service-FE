@@ -15,7 +15,7 @@ export const HomeContainer = ({ children }: { children: React.ReactNode }) => {
 
   return (
     <>
-      <Background color="#FCAF16" />
+      <Background color="#0046FF" />
       <TopLogo />
       <WhiteContainer>
         {children}
@@ -23,7 +23,7 @@ export const HomeContainer = ({ children }: { children: React.ReactNode }) => {
           <Continue>
             <img src="/img/character2.png"></img>
             <span>안전한 AI 서비스를 위한</span>
-            <span>KB HI의 모험은 계속됩니다!</span>
+            <span>Shin HI의 모험은 계속됩니다!</span>
           </Continue>
         ) : null}
       </WhiteContainer>

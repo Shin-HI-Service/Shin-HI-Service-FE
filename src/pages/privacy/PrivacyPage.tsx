@@ -33,7 +33,7 @@ const PrivacyPage = () => {
   return (
     <>
       <FirstLoading />
-      <Background color="#FCAF16" />
+      <Background color="#0046FF" />
       <MidContainer>
         <Title>서비스를 이용하기 위한</Title>
         <Title>개인 정보를 입력해주세요!</Title>

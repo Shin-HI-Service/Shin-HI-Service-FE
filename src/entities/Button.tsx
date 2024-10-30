@@ -33,9 +33,9 @@ const StyledButton = styled.div`
 
   margin-top: 20px;
 
-  border: 3px solid #f0a000;
+  border: 3px solid #0134c0;
 
-  background-color: #eb9c00;
+  background-color: #0134c0;
 `;
 
 const OffStyledButton = styled(StyledButton)`

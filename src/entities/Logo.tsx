@@ -13,13 +13,13 @@ const Bottom = styled.img`
 
 const Top = styled.img`
   position: fixed;
-  top: 2px;
+  top: 4px;
   left: 50%;
   transform: translate(-50%, 0%);
 
   z-index: -1;
 
-  width: 130px;
+  width: 170px;
 `;
 
 export const BottomLogo = () => (

@@ -26,7 +26,7 @@ export const FirstLoading = () => {
     <>
       {show ? (
         <Container>
-          <Background color="#FCAF16" />
+          <Background color="#0046FF" />
           <MidContainer>
             <img src="/img/character.png" style={{ marginBottom: "10px" }} />
             <SubTitle>철저한 암호화 기술 기반</SubTitle>

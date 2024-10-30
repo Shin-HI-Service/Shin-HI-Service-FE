@@ -38,7 +38,7 @@ const ElementContainer = styled(Container)`
   height: 70px;
 
   color: white;
-  background-color: #fcaf16e8;
+  background-color: #0046ffe8;
 
   align-items: flex-start;
 

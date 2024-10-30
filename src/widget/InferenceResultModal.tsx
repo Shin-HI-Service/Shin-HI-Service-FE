@@ -67,6 +67,6 @@ const Result = styled.div`
   font-size: 35px;
   font-weight: bold;
   > span {
-    color: #eb9c00;
+    color: #0134c0;
   }
 `;
