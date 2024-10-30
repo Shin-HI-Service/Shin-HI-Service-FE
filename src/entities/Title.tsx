@@ -8,11 +8,21 @@ export const LargeTitle = styled.div`
 export const Title = styled.div`
   font-size: 30px;
   font-weight: bold;
+`;
+
+export const WhiteTitle = styled.div`
+  font-size: 30px;
+  font-weight: bold;
 
   color: white;
 `;
 
 export const SubTitle = styled.div`
+  font-size: 19px;
+  font-weight: lighter;
+`;
+
+export const WhiteSubTitle = styled.div`
   font-size: 19px;
   font-weight: lighter;
 

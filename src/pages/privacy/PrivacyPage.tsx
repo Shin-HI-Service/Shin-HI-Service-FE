@@ -10,6 +10,7 @@ import {
   BottomLogo,
   FirstLoading,
   Button,
+  WhiteTitle,
 } from "@/entities";
 
 import { SelectInput } from "@/widget";
@@ -35,8 +36,8 @@ const PrivacyPage = () => {
       <FirstLoading />
       <Background color="#0046FF" />
       <MidContainer>
-        <Title>서비스를 이용하기 위한</Title>
-        <Title>개인 정보를 입력해주세요!</Title>
+        <WhiteTitle>서비스를 이용하기 위한</WhiteTitle>
+        <WhiteTitle>개인 정보를 입력해주세요!</WhiteTitle>
         <div style={{ height: "5px" }}></div>
         <SubTitle>입력하신 정보는 사용 중이신 기기에만</SubTitle>
         <SubTitle>저장되니 안심하고 입력해도 됩니다.</SubTitle>

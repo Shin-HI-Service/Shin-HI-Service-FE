@@ -4,6 +4,8 @@ export { StatusMessage } from "./StatusMessage";
 export {
   LargeTitle,
   Title,
+  WhiteSubTitle,
+  WhiteTitle,
   SubTitle,
   Label,
   ElementTitle,
