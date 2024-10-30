@@ -11,6 +11,7 @@ import {
   FirstLoading,
   Button,
   WhiteTitle,
+  WhiteSubTitle,
 } from "@/entities";
 
 import { SelectInput } from "@/widget";
@@ -39,8 +40,8 @@ const PrivacyPage = () => {
         <WhiteTitle>서비스를 이용하기 위한</WhiteTitle>
         <WhiteTitle>개인 정보를 입력해주세요!</WhiteTitle>
         <div style={{ height: "5px" }}></div>
-        <SubTitle>입력하신 정보는 사용 중이신 기기에만</SubTitle>
-        <SubTitle>저장되니 안심하고 입력해도 됩니다.</SubTitle>
+        <WhiteSubTitle>입력하신 정보는 사용 중이신 기기에만</WhiteSubTitle>
+        <WhiteSubTitle>저장되니 안심하고 입력해도 됩니다.</WhiteSubTitle>
         <InputContainer>
           {defaultPrivacy.map((privacy) => (
             <SelectInput
