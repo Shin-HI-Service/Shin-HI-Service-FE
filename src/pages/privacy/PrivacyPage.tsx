@@ -28,6 +28,7 @@ const PrivacyPage = () => {
     { id: "d-4", value: "" },
     { id: "d-5", value: "" },
     { id: "d-6", value: "" },
+    { id: "d-7", value: "" },
   ]);
 
   const navigate = useNavigate();

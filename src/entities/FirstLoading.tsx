@@ -2,13 +2,7 @@ import { useState, useEffect } from "react";
 import styled from "@emotion/styled";
 import { DotLoader } from "react-spinners";
 
-import {
-  BottomLogo,
-  Background,
-  MidContainer,
-  Title,
-  SubTitle,
-} from "@/entities";
+import { Background, MidContainer, WhiteSubTitle } from "@/entities";
 
 export const FirstLoading = () => {
   const [show, setShow] = useState(false);
@@ -29,8 +23,8 @@ export const FirstLoading = () => {
           <Background color="#0046FF" />
           <MidContainer>
             <img src="/img/character.png" style={{ marginBottom: "10px" }} />
-            <SubTitle>철저한 암호화 기술 기반</SubTitle>
-            <SubTitle>안전한 AI 추천 서비스</SubTitle>
+            <WhiteSubTitle>철저한 암호화 기술 기반</WhiteSubTitle>
+            <WhiteSubTitle>안전한 AI 추천 서비스</WhiteSubTitle>
             <img src="/img/logo.png" width="140px" />
             <div style={{ height: "50px" }}></div>
             <DotLoader color="white" size={80} speedMultiplier={0.8} />
